@@ -22,7 +22,7 @@ login, password = input('Щоб редагувати список, введіт�
 if login == 'python' and password == 'developer':
     print('Вхід виконано успішно ')
     while True:
-        option = input('Оберіть варіант взаємодії(append, insert, remove, index, sort) або якщо бажаєте авершити програму(exit): ')
+        option = input('Оберіть варіант взаємодії(append, insert, remove, index, sort) або якщо бажаєте завершити програму(exit): ')
         option == 'append' or 'insert' or 'remove' or 'index' or 'sort'
         if option == 'append':
             while True:
